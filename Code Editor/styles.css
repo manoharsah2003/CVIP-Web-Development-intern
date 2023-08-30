@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+button{
+    color: blue;
+    background-color: black;
+    padding: 0.5%;
+
+}
+textarea{
+  color: aqua;
+}
