@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME Page</title>
+        <style>
+            *{margin: 0; padding: 0; font-family: 'Segoe UI';}
+            .banner{width: 100%; height: 100vh; background-size: cover; background-position: center; background-color:aquamarine;}
+            .navbar{width: 85%; margin: auto; padding: 35px 0; display: flex; align-items: center; justify-content: space-between;}
+            .logo{width: 120px; cursor: pointer;}
+            .navbar ul li{list-style: none; display: inline-block; margin: 0 20px; position: relative;}
+            .navbar ul li a{text-decoration: none; text-transform: uppercase; color: black;}
+            .navbar ul li::after{content: ''; height: 1.5px; width: 0%; background: rgb(100, 100, 100); position: absolute; left: 0; bottom: -1px; transition: 0.5s;}
+            .navbar ul li:hover::after{width: 100%;}
+            img{display: block; margin-left: auto; margin-right: auto;}
+            h1{font-family: 'Segoe UI';}
+        </style>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <h1 class="logo">Photography</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Portfolio</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <table style="width: 100%;">
+                    <tr>
+                        <td><img src="https://cdni.iconscout.com/illustration/premium/thumb/photographer-girl-with-camera-flat-design-1792784-1519340.png"></td>
+                        <td>
+                            <p>Hello</p><br/>
+                            <h1>This is Manohar</h1><br/>
+                            <p>Web Developer, Photographer</p><br/><br/>
+                            <table style="width: 200px;">
+                                <tr>
+                                    <td><a href="https://twitter.com/"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="20px"></a></td>
+                                    <td><a href="https://www.facebook.com/"><img src="data:image/png;base64,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" width="20px"></a></td>
+                                    <td><a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" width="20px"></a></td>
+                                    <td><a href="https://www.linkedin.com/"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" width="20px"></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
