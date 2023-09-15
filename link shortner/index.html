@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Link Shortener</h1>
+    <form>
+      <label for="long">Paste Your Link:</label>
+      <input type="text" id="long" name="long">
+      <button type="button" id="shorten-btn">Shorten</button>
+    </form>
+    <div id="short-container" style="display:none">
+      <p>Here is your short Link:</p>
+      <div id="short">
+        <a href="" target="_blank"></a>
+        <button type="button" id="copy-btn">Copy</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
